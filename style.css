@@ -1,0 +1,518 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+nav{
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: white;
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    padding: 10px 20px;
+
+}
+.firstdiv{
+    background-image: url(images/Group\ 25.png);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bakelimg{
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.bakelimg img{
+    border-radius: 20px;
+    align-items: center;
+    height: 100px;
+    width: 170px;
+}
+.bakelimg h3{
+    color: #fff;
+    background-color: #524f4f;
+    height: 50px;
+    margin: 80px;
+    font-size: 23px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    padding-top: 25px;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+
+.bakelimg p{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+footer{
+    background-color: #C4C4C459;
+    padding: 20px 0px;
+    height: 490px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18.4px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.divfooter{
+margin: 35px;
+}
+h4{
+    font-weight: normal;
+}
+#imgf{
+    width: 82px;
+    height: 19px;
+    padding-top: 30px;
+}
+.textfooter {
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+    color: #414141;
+}
+/* début dexieme div */
+.secondiv{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.secondiv .secondiv-box{
+    text-align: center; 
+    display: flex;
+    flex-direction: column; 
+}
+.secondiv div img{
+    border-radius: 300px;
+    border: 2px solid rgb(5, 85, 54);
+    padding: 20px;
+}
+#marketing{
+    width: 50px;
+    height: 50px;
+}
+.secondiv div h4{
+    font-weight: bold;
+}
+.secondiv div p{
+    font-size: 12px;
+    padding: 0;
+}
+
+/* ------------début troisieme div------------ */
+.troisdiv{
+    background-color: #d8d7d7;
+    height: 250px;
+    padding: 20px;
+}
+.troisdiv h4{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.div0{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.div0 div{
+    margin-left: 20px;
+    text-align: center;
+}
+
+/* Début div quatre */
+.divquatre{
+    background-color: #ffff;
+    height: 520px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.divquatre > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wordpress{
+    width: 25%;
+    height:50% ;
+    background: #83CBCF;
+    align-items: center;
+}
+.html{
+    width: 25%;
+    height:50% ;
+    background: #67B4CC; 
+}
+.canva{
+    width: 25%;
+    height:50% ;
+    background: #717967 ;
+}
+.js{
+    width: 25%;
+    height:50% ;
+    background: #649A97;
+}
+.java{
+    width: 25%;
+    height:50% ;
+    background: #827263;
+}
+.inkscap{
+    width: 25%;
+    height:50% ;
+    background: #35A0AE;
+}
+.adob{
+    width: 25%;
+    height:50% ;
+    background: #237792;
+}
+.python{
+    width: 25%;
+    height:50% ;
+    background: #A5C0AD;
+}
+.img1{
+    text-align: center;
+}
+.skill-container{
+    width: 100%;
+    height: 490px;
+    background-color: #fff;
+}
+
+/*début ciquieme partie */
+
+
+.title{
+    text-align: center;
+}
+.title h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+.title p{
+    font-size: 14px;
+}
+.row{
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-wrap: wrap;
+    margin-left: 140px;
+
+}
+.itemme{
+    padding: 2rem 0;
+    margin: 1rem 0;
+}
+.itemme-text{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.3rem;
+    position: relative;
+}
+.itemme-text span:last-child{
+    position: absolute;
+}
+.titre{
+    font-size: 16px;
+    font-weight: bold;
+}
+.itemme-text .w-90{
+    margin-left: 60%;
+    font-size: 16px;
+}
+.progress{
+    margin: 0.8rem 0;
+    border-radius: 10px;
+    height: 10px;
+    width: 70%;
+    background-color: #d8d7d7;
+    overflow: hidden;
+}
+.progress-bar{
+    background-color: #A5C0AD;
+    height: 100%;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.w-90{
+    width: 100%;
+}
+.w-80{
+    width: 90%;
+}
+.w-70{
+    width: 80%;
+}
+.w-60{
+    width: 70%;
+}
+.itemme-text .w-80{
+    margin-left: 60%;
+    font-size: 16px;
+}
+.itemme-text .w-70{
+    margin-left: 60%;
+    font-size: 16px;
+}
+.itemme-text .w-60{
+    margin-left: 60%;
+    font-size: 16px;
+}
+
+
+
+
+
+
+/* début sixieme partie */
+
+.divsix{
+    background: #A5C0AD;
+    height: 870px;
+}
+.divsix h2{
+    text-align: center;
+    font-size: 30px;
+    line-height: 34.5px;
+    color: #fff;
+    padding-top: 70px;
+    font-weight: normal;
+}
+.divsix p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 16.1px;
+    color: #fff;
+}
+.contenair6{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.team{
+    width: 280px;
+    padding-top: 150px;
+}
+.team:hover{
+   width: 290px;
+}
+
+/* début septieme partie */
+.divsept{
+    background: #fff;
+    height: 400px;
+    justify-content: center;
+    padding-top: 40px;
+}
+#contenairimg {
+    display: flex;
+    justify-content: center;
+}
+#contenairimg img{
+    width: 70px;
+    height: 70px;
+    text-align: center;
+}
+.divsept p{
+    text-align: center;
+    font-size: 14px;
+    line-height: 16px;
+    padding-top: 70px;
+}
+.divsept h3{
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 90px;
+}
+@media screen and (max-width:500px){
+    nav{
+        text-align: center;
+    }
+    nav ul{
+        padding: 10px;
+    }
+    nav ul li a{
+        font-size: 15px;
+        padding: 5px;
+    }
+    
+    .bakelimg h3{
+        font-size: 16px;
+    }
+    footer{
+        text-align: center;
+        font-size: 12px;
+    }
+    .divfooter{
+        margin: 15px;
+    }
+   
+    #marketing{
+        width: 50px;
+        height: 50px;
+    }
+    .secondiv p{
+        font-size: 10px;
+    } 
+    .div0{
+        font-size: 10px;
+    }
+    .divquatre{
+        height: 300px;
+    }
+    .divquatre div{
+        width: 100%;
+        height: 250px;
+    }
+    .divquatre > div > img{
+        width: 85px;
+        height: 55px;
+    }
+    
+
+.divsix{
+    height: 740px;
+}
+.contenair6{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0;
+}
+.team{
+    width: 40%;
+    padding-top: 20px;
+    /* height: 250px; */
+}
+.team:hover{
+   width: 160px;
+}
+h4{
+    font-weight: normal;
+    font-size: 15px;
+}
+#imgf{
+    width: 82px;
+    height: 19px;
+    /* padding-top: 30px; */
+}
+.textfooter {
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    font-size: 14px;
+    color: #414141;
+}
+footer{
+    background-color: #C4C4C459;
+    padding: 20px 0px;
+    height: 490px;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skill-container{
+    width: 100%;
+    height: 490px;
+    background-color: #fff;
+    padding-top: 1700px;
+}
+.title{
+    text-align: center;
+}
+.title h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+.title p{
+    font-size: 14px;
+}
+.row{
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    flex-wrap: wrap;
+    margin-left: 70px;
+
+}
+.itemme{
+    padding: 2rem 0;
+    margin: 1rem 0;
+}
+.itemme-text{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.3rem;
+    position: relative;
+}
+.itemme-text span:last-child{
+    position: absolute;
+}
+.titre{
+    font-size: 12px;
+    font-weight: bold;
+}
+.itemme-text .w-90{
+    margin-left: 60%;
+    font-size: 10px;
+}
+.itemme-text .w-80{
+    margin-left: 60%;
+    font-size: 10px;
+}
+.itemme-text .w-70{
+    margin-left: 60%;
+    font-size: 10px;
+}
+.itemme-text .w-60{
+    margin-left: 60%;
+    font-size: 10px;
+}
+}
